@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "../assets/logo/vibeeland_logo.png"
+import logo from "../assets/logo/vibeeland_logo.png";
 
 export default function Navbar({ setBookingOpen }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,7 +8,7 @@ export default function Navbar({ setBookingOpen }) {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 40);
+      setScrolled(window.scrollY > 100);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -87,13 +87,20 @@ export default function Navbar({ setBookingOpen }) {
       >
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           {/* Logo */}
-      <a href="#home" className="flex items-center">
-<img
-  src={logo}
-  alt="Vibee Land Homestay"
-  className="h-20 md:h-24 w-auto object-contain"
-/>
-</a>
+          <a
+            href="#home"
+            className={`flex items-center transition-all duration-300 ${
+              scrolled
+                ? "opacity-100 translate-y-0"
+                : "opacity-0 -translate-y-2 pointer-events-none"
+            }`}
+          >
+            <img
+              src={logo}
+              alt="Vibee Land Homestay"
+              className="h-14 md:h-16 w-auto object-contain"
+            />
+          </a>
 
           {/* Desktop Menu */}
           <nav className="hidden lg:flex items-center gap-10">

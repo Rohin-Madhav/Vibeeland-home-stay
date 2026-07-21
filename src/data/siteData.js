@@ -5,8 +5,7 @@ export const siteData = {
 
   whatsapp: "918547878720",
 
-  instagram:
-    "https://www.instagram.com/vibeeland_homestay",
+  instagram: "https://www.instagram.com/vibeeland_homestay",
 
   location: "Near Mini Ooty, Kerala",
 
@@ -22,9 +21,5 @@ export const siteData = {
     "Open Stage",
   ],
 
-  attractions: [
-    "Mini Ooty",
-    "Cherupadi Mala",
-    "Tiruvona Mala",
-  ],
+  attractions: ["Mini Ooty", "Cherupadi Mala", "Tiruvona Mala"],
 };

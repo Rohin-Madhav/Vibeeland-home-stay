@@ -147,12 +147,15 @@ Please share availability and pricing.`;
 
         <div className="grid md:grid-cols-2 gap-10">
           {rooms.map((room, index) => (
-            <div key={index} className="vl-room-card rounded-sm overflow-hidden">
+            <div
+              key={index}
+              className="vl-room-card rounded-sm overflow-hidden"
+            >
               <div className="vl-room-image-wrap">
                 <img
                   src={room.image}
                   alt={room.name}
-                  className="vl-room-image w-full h-80 object-cover"
+                  className="vl-room-image w-full h-48 sm:h-64 md:h-80 object-cover"
                 />
                 <span className="vl-room-tag">{room.tag}</span>
               </div>

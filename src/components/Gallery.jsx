@@ -122,7 +122,7 @@ export default function Gallery() {
               <img
                 src={image}
                 alt={`Gallery ${index + 1}`}
-                className="vl-gal-img w-full h-80 object-cover"
+                className="vl-gal-img w-full h-48 sm:h-64 md:h-80 object-cover"
               />
               <div className="vl-gal-veil" />
               <div className="vl-gal-corner" />

@@ -91,7 +91,7 @@ export default function About() {
             <img
               src={heroImg}
               alt="Vibee Land Homestay"
-              className="relative z-10 w-full h-125 object-cover rounded-sm shadow-2xl"
+              className="relative z-10 w-full h-56 sm:h-80 md:h-96 object-cover rounded-sm shadow-2xl"
             />
 
             <div className="absolute z-20 bottom-6 left-6 bg-[#FBF8F2]/95 backdrop-blur-md px-6 py-4 rounded-sm shadow-lg border border-[#C9A227]/20">

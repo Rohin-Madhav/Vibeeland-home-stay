@@ -139,7 +139,7 @@ export default function Contact() {
 
             <div className="mt-10">
               <a
-                href={`https://wa.me/918547878720?text=${encodeURIComponent(
+                href={`https://wa.me/917907103605?text=${encodeURIComponent(
                   `Hi Vibee Land 👋
 
 I found your website and would like to know more about room availability.

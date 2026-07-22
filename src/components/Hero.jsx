@@ -75,7 +75,7 @@ export default function Hero() {
         {/* Buttons */}
         <div className="mt-7 sm:mt-10 flex flex-col sm:flex-row justify-center items-center gap-4 px-4">
           <a
-            href={`https://wa.me/918547878720?text=${encodeURIComponent(
+            href={`https://wa.me/917907103605?text=${encodeURIComponent(
               `Hi Vibee Land 👋
 
 I would like to know room availability and pricing.

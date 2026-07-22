@@ -88,7 +88,7 @@ export default function Footer() {
           </p>
 
           <a
-            href={`https://wa.me/918547878720?text=${encodeURIComponent(
+            href={`https://wa.me/917907103605?text=${encodeURIComponent(
               `Hi Vibee Land,
 
 I would like to know more about room availability.
